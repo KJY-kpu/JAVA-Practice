@@ -4,6 +4,7 @@ abstract class Component {      //추상 클래스 선언
     String name = "KJY";
 
     public abstract String getName();   //추상 메소드 선언
+
 }
 
 class MyComponent extends Component {
